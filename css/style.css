@@ -123,7 +123,7 @@ section .small {
 }
 
 .smaller {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     line-height: normal;
 }
 
@@ -155,4 +155,39 @@ aside div p {
     padding-bottom: 20px;
     padding-inline: 30px;
 }
+
 /* FOOTER */
+
+footer {
+    text-align: center;
+    background-color:#25a2c3;
+    color: rgb(241, 241, 241);
+    padding-top: 30px; 
+    padding-bottom: 50px;
+    font-family: "Montserrat", system-ui;
+    line-height: 23px;
+    font-size: 0.8rem;
+}
+h2 {
+    font-weight: 600;
+    font-size: 1.7em;
+    padding-bottom: 15px;
+}
+
+address a {
+    color: #c8e7f0;
+
+}
+
+address {
+    padding-bottom: 10px;
+}
+
+hr {
+    width: 50%;
+    color: #c8e7f0;
+}
+
+cite a {
+    color: white;
+}

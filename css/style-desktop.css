@@ -1,0 +1,233 @@
+/* STRUCTURE */
+body {
+    font-family: "Open Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* HEADER */
+header div {
+    background-color: black;
+    text-align: left;
+    line-height: 100px;
+    padding-left: 60px;
+}
+
+header div img {
+    width: 15%;
+    padding-top: 30px;
+}
+
+.hero {
+    background-image: url(../images/banner.jpg);
+    background-size: 100%;
+    
+    width: 100%;
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.9em;
+    text-align: center;
+    padding-bottom: 120px;
+    line-height: 30px;
+}
+
+.blu-title {
+    color: #25a2c3;
+    padding-bottom: 12px;
+    font-weight: 600;
+}
+
+section h1 {
+    font-size: 1.7em;
+    padding-inline: 50px;
+    padding-top: 120px;
+}
+
+header p {
+    padding-bottom: 20px;
+    padding-inline: 265px;
+    color: #474747;
+
+}
+
+button {
+    background-color: #f04c2f;
+    line-height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding-inline: 30px;
+}
+
+button:hover {
+    background-color: #7b2213;
+}
+
+header button a {
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* MAIN */
+/* ARTICLE */
+/* In questa sezione ho dovuto creare più regole di quello che
+   ritenevo necessario poichè le regole imposte successivamente
+   non sovrascrivevano le precedenti, anche se avevano una 
+   specificità più alta */
+main {
+    line-height: 20px;
+    padding-top: 50px;
+    font-weight: 300;
+}
+
+main article div {
+    padding-right: 30px; 
+    text-align: left;
+}
+.container {
+    text-align: center;
+}
+
+.box1, .box2{
+    display: inline-block;
+    width: 45%;
+}
+
+.box2 {
+    font-size: 0.8em;
+    padding-bottom: 50px;
+}
+
+
+main article p {
+    padding-bottom: 20px;
+    color: #474747;
+}
+
+article img {
+    border-radius: 50%;
+    width: 70%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* SECTION */
+/* Ho notato che il testo del riquadro arancione è più "schiacciato"
+   ma non sono riuscita a replicarlo */
+.orange {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: #f04c2f;
+    color: white;
+    font-family: "Monserrat", system-ui;
+    text-align: center;
+}
+
+.orange h2 {
+    font-size: 1.2em;
+    padding-bottom: 25px;
+    font-weight: 700;
+}
+
+section .small {
+    font-size: 1rem;
+    font-style: italic;
+    padding-inline: 60px;
+    padding-bottom: 20px;
+}
+
+.smaller {
+    font-size: 0.6rem;
+    line-height: normal;
+}
+
+/* ASIDE */
+aside {
+    margin-top: 60px;
+    padding-inline: 20px;
+    margin-bottom: 60px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* Non capisco perchè i box abbiano 3 altezze diverse */
+.box3,
+.box4,
+.box5 {
+    display: inline-block;
+    width: 31%;
+    line-height: normal;
+}
+
+
+aside div {
+    border: solid 1px rgb(230, 230, 230);
+    margin-bottom: 30px;
+    /* Come da immagine ho applicato il border-radius solo dove richiesto */
+    border-radius: 0 0 5px 5px;
+
+}
+
+
+aside div img {
+    width: 100%;
+}
+
+aside div h4 {
+    padding-top: 15px;
+}
+
+aside div p {
+    padding-bottom: 20px;
+    padding-inline: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    color: rgb(241, 241, 241);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Montserrat", system-ui;
+    line-height: 23px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+h2 {
+    font-weight: 600;
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+address a {
+    color: #c8e7f0;
+
+}
+
+address {
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    margin-inline: auto;
+}
+
+hr {
+    width: 30%;
+    color: #c8e7f0;
+}
+
+cite a {
+    color: white;
+}

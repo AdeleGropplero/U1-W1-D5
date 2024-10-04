@@ -1,0 +1,71 @@
+/* STRUCTURE */
+body {
+    font-family: "Open Sans", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+}
+
+header div {
+    background-color: black;
+    text-align: center;
+    line-height: 80px;
+}
+
+header div img {
+    width: 30%;
+    padding-top: 30px;
+}
+.hero {
+    background-image: url(../images/banner.jpg);
+    background-size: 136%;
+    background-position: -70px;
+    width: 100%;
+    font-family: "Montserrat", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        padding-bottom: 30px;
+        line-height: 30px;
+}
+
+.blu-title{
+    color: #25a2c3;
+}
+
+section h1 {
+    font-weight: 600;
+    font-size: 2em;
+    padding-inline: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+
+header section p {
+    padding-bottom: 30px;
+    padding-inline: 40px;
+
+}
+button {
+ background-color: #f04c2f;
+    line-height: 35px;    
+    border-radius: 5px;
+    border: none;
+    padding-inline: 30px;  
+    
+    
+}
+
+header button a {
+        font-family: "Montserrat", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}

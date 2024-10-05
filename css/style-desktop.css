@@ -1,5 +1,15 @@
 /* STRUCTURE */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+
 body {
+    margin: 0;
     font-family: "Open Sans", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -169,11 +179,26 @@ aside {
 .box4,
 .box5 {
     display: inline-block;
-    width: 30%;
+    width: calc(33% - 20px);
      min-height: 132px;
+   
+ 
+}
+
+.box3 {
+    margin-right: 20px;
+}
+
+.box4 {
+    margin-right: 20px;
+}
+
+.box5 {
+   height: auto;
 }
 
 aside div {
+
     border: solid 1px rgb(230, 230, 230);
     margin-bottom: 30px;
     /* Come da immagine ho applicato il border-radius solo dove richiesto */

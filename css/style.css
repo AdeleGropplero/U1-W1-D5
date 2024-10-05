@@ -1,4 +1,11 @@
 /* STRUCTURE */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Open Sans", system-ui;
         font-optical-sizing: auto;
@@ -90,6 +97,7 @@ main {
 
 main article{
     padding-inline: 30px;
+    margin-bottom: 40px;
 }
 
 

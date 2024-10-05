@@ -89,11 +89,13 @@ main {
 }
 
 main article div {
-    padding-right: 30px; 
-    text-align: left;
+    text-align: left;  
+    vertical-align: middle;
+    padding-bottom: 50px;
 }
 .container {
     text-align: center;
+    vertical-align:middle;
 }
 
 .box1, .box2{
@@ -101,9 +103,10 @@ main article div {
     width: 45%;
 }
 
+
 .box2 {
     font-size: 0.8em;
-    padding-bottom: 50px;
+
 }
 
 
@@ -157,24 +160,25 @@ aside {
     margin-bottom: 60px;
     font-size: 0.8rem;
     text-align: center;
+    
 }
 
-/* Non capisco perchè i box abbiano 3 altezze diverse */
+/* Non capisco perchè i box abbiano 3 altezze diverse*/
+
 .box3,
 .box4,
 .box5 {
     display: inline-block;
-    width: 31%;
-    line-height: normal;
+    width: 30%;
+     min-height: 132px;
 }
-
 
 aside div {
     border: solid 1px rgb(230, 230, 230);
     margin-bottom: 30px;
     /* Come da immagine ho applicato il border-radius solo dove richiesto */
     border-radius: 0 0 5px 5px;
-
+    vertical-align:middle;
 }
 
 
